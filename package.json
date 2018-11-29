@@ -1,0 +1,39 @@
+{
+  "name": "iptv-key",
+  "version": "1.0.0",
+  "description": "电视端遥控器按键库",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chentong106140/iptv-key.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chentong106140/iptv-key/issues"
+  },
+  "homepage": "https://github.com/chentong106140/iptv-key#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^1.0.0",
+    "eslint": "^5.9.0",
+    "eslint-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "imports-loader": "^0.8.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "iptv-core": "^1.0.1"
+  }
+}
