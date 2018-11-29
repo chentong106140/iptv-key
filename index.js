@@ -1,7 +1,7 @@
 /**
  * Created by cherish on 2017/12/14.
  */
-import iptv from 'iptv-core'
+import iptv from 'morgan-iptv-core'
 
 
 (function (window, iptv) {

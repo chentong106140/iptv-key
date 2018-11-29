@@ -1,5 +1,5 @@
 {
-  "name": "iptv-key",
+  "name": "morgan-iptv-key",
   "version": "1.0.0",
   "description": "电视端遥控器按键库",
   "main": "index.js",
@@ -34,6 +34,6 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
-    "iptv-core": "^1.0.1"
+    "morgan-iptv-core": "^1.0.1"
   }
 }

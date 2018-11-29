@@ -24,10 +24,10 @@ module.exports =
             //library: 'iptv'// 指定类库名,主要用于直接引用的方式(比如使用script 标签)
         },
         externals: {
-            'iptv-core': {
-                commonjs: 'iptv-core',
-                commonjs2: 'iptv-core',
-                amd: 'iptv-core',
+            'morgan-iptv-core': {
+                commonjs: 'morgan-iptv-core',
+                commonjs2: 'morgan-iptv-core',
+                amd: 'morgan-iptv-core',
                 root: 'iptv'
             }
         },
