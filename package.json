@@ -1,6 +1,6 @@
 {
   "name": "morgan-iptv-key",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "电视端遥控器按键库",
   "main": "index.js",
   "scripts": {
