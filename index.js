@@ -1223,4 +1223,18 @@ import iptv from 'morgan-iptv-core'
     //添加按键事件
     iptv(document).addEventListener("keydown", keyDownEventfunction);
 
+    if (typeof module === "object" && module && typeof module.exports === "object") {
+        module.exports = iptv;
+    } else {
+        if (typeof define === "function" && define.amd) {
+            define("iptv", [], function () {
+                return iptv;
+            });
+        }
+    }
+
+    if (typeof window === "object" && typeof window.document === "object") {
+        window.iptv = window.$ = iptv;
+    }
+
 })(window, iptv);
